@@ -1,5 +1,3 @@
-import React from "react";
-
 interface Props {
   rating: number;
 }
@@ -13,7 +11,7 @@ const Emoji = ({ rating }: Props) => {
     5: { src: "bullEyes", alt: "exceptional" },
   };
 
-  return <div {...emojiMap[rating]} ></div>;
+  return <div {...emojiMap[rating]}></div>;
 };
 
 export default Emoji;
