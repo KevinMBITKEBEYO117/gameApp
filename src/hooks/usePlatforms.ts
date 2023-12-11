@@ -13,7 +13,7 @@ export interface Platform{
     slug:string
 }
 
-//const usePlatforms = () => useData<Platform>('/platforms/lists/parents')
+
 
 const usePlatforms = () => useQuery({
     queryKey:['platforms'],
